@@ -1,0 +1,62 @@
+.atividade {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: azure;
+    border: 2px darkgray solid;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.info {
+    width: 35%;
+}
+
+.datas {
+    width: 25%;
+}
+
+.div_conclusao {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_descricao {
+    width: 70%;
+}
+
+.div_categoria {
+    width: 15%;
+}
+
+.andamento {
+    background-color: --bs-blue;
+}
+
+.organizacao_to-do {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.atividades_h1 {
+    text-align: center;
+    margin-top: 15rem;
+}
+
+#atividades_pendentes {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#atividades_pendentes .atividade {
+    width: 100%;
+}
+
+.botaoAlterar {
+    margin: 1rem 0;
+}

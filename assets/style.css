@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0.5rem 0;
+    background-color: #212529;
+}
+
+ul li {
+    text-decoration: none;
+    font-size: 1.05rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#atividades_pendentes {
+    width: 90%;
+    margin: 0 auto;
+}
